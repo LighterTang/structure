@@ -10,31 +10,13 @@ public class Operator {
     /**
      * 运算符符号
      */
-    private char name;
+    private char operatorName;
 
-    public char getName() {
-        return name;
+    public char getOperatorName() {
+        return operatorName;
     }
 
-    public void setName(char name) {
-        this.name = name;
-    }
-
-    /**
-     * 判断符号优先级的方法
-     * @param c
-     * @return
-     */
-    public static int optionLevel(char c) {
-        switch (c) {
-            case '+':
-            case '-':
-                return 1;
-            case '*':
-            case '/':
-                return 2;
-            default:
-                return 0;
-        }
+    public void setOperatorName(char operatorName) {
+        this.operatorName = operatorName;
     }
 }
