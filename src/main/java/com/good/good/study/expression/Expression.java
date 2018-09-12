@@ -10,11 +10,11 @@ import java.util.Stack;
  */
 public class Expression {
 
-
+    private Stack<Operator> stack = new Stack<>();
     public int getResult() {
 
         //存放运算符
-        Stack<Operator> stack = new Stack<>();
+
 
 
         return 0;
@@ -28,12 +28,23 @@ public class Expression {
     public String getPostfix(String expression) throws Exception{
         StringBuilder stringBuilder = new StringBuilder();
         for (int i=0;i<expression.length();i++){
+            Operator operator = new Operator();
+            operator.setOperatorName(expression.charAt(i));
             char c = expression.charAt(i);
             if (Character.isDigit(c)){
+                //遇到操作数：直接输出（添加到后缀表达式中）
                 stringBuilder.append(c);
             }
             if (isOperator(c)){
-
+                //栈为空时，遇到运算符，直接入栈
+                if (stack.isEmpty()){
+                    stack.push(operator);
+                }else {
+                    // 若栈顶元素优先级大于或等于要入栈的元素
+                    if (priority(stack.peek()) >= priority(operator)){
+                        stringBuilder.append(stack.pop());
+                    }
+                }
             }
             if (isOpenParent(c)){
 
