@@ -2,11 +2,11 @@ package com.good.good.study.expression;
 
 /**
  * 运算符
+ *
  * @author tangquanbin
  * @date 2018/9/12 19:43
  */
 public class Operator {
-
     /**
      * 运算符符号
      */
@@ -19,4 +19,5 @@ public class Operator {
     public void setOperatorName(char operatorName) {
         this.operatorName = operatorName;
     }
+
 }
