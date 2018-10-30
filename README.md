@@ -1,10 +1,10 @@
 ## TODO
 1：最小函数min()栈
 
-1. 设计含最小函数min()、取出元素函数pop()、放入元素函数push()的栈AntMinStack，实现其中指定的方法
-2. AntMinStack中数据存储使用Java原生的Stack，存储数据元素为int。请实现下面对应的方法，完善功能。
+1. 设计含最小函数min()、取出元素函数pop()、放入元素函数push()的栈MinStack，实现其中指定的方法
+2. MinStack中数据存储使用Java原生的Stack，存储数据元素为int。请实现下面对应的方法，完善功能。
 
-public class AntMinStack {
+public class MinStack {
 
     /**
      * push 放入元素

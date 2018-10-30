@@ -3,14 +3,15 @@ package com.good.good.study.stack;
 import java.util.Stack;
 
 /**
- * 1：最小函数min()栈
- *
- * 1. 设计含最小函数min()、取出元素函数pop()、放入元素函数push()的栈AntMinStack，实现其中指定的方法
- * 2. AntMinStack中数据存储使用Java原生的Stack，存储数据元素为int。请实现下面对应的方法，完善功能。
+ * ###155题.设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
+ *     push(x) -- 将元素 x 推入栈中。
+ *     pop() -- 删除栈顶的元素。
+ *     top() -- 获取栈顶元素。
+ *     min() -- 检索栈中的最小元素。
  * @author tangquanbin
  * @date 2018/09/11 21:44
  */
-public class AntMinStack {
+public class MinStack {
     /**
      * 真正存放数据栈
      */
@@ -35,6 +36,16 @@ public class AntMinStack {
     }
 
     /**
+     * 获取栈顶元素
+     * @return
+     */
+    public int top() {
+        return stack.peek();
+
+    }
+
+
+    /**
      * pop 推出元素
      * @return
      * @throws Exception
@@ -55,7 +66,7 @@ public class AntMinStack {
     }
 
     public static void main(String[] args){
-        AntMinStack antMinStack = new AntMinStack();
+        MinStack antMinStack = new MinStack();
         antMinStack.push(2);
         antMinStack.push(1);
         antMinStack.push(8);
