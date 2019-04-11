@@ -88,4 +88,14 @@ public class MyArrayList implements BaseList {
         return object;
     }
 
+    @Override
+    public Object getPre(Object object) {
+        return null;
+    }
+
+    @Override
+    public Object getNext(Object object) {
+        return null;
+    }
+
 }

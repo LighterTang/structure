@@ -48,5 +48,18 @@ public interface BaseList {
      */
     Object remove(int index);
 
+    /**
+     * 获取前驱元素
+     * @param object
+     * @return
+     */
+    Object getPre(Object object);
+
+    /**
+     * 获取后继元素
+     * @param object
+     * @return
+     */
+    Object getNext(Object object);
 
 }
