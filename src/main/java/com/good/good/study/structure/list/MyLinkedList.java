@@ -5,21 +5,35 @@ package com.good.good.study.structure.list;
  * @Package: com.good.good.study.structure.list
  * @Description: TODO（添加描述）
  * @Author: tangquanbin
- * @Data: 2019/4/11 0011 23:52
+ * @Data: 2019/4/12 8:26
  * @Version: V1.0
  */
 public class MyLinkedList implements BaseList{
-    private int data;
-    private MyArrayList next;
-    private int size;
 
-    public MyLinkedList(int data) {
-        this.data = data;
+    /**
+     * 头结点
+     */
+    private Node header = new Node(null,null);
+
+    class Node{
+        /**
+         * 数据域
+         */
+        private Object data;
+        /**
+         * 指针域
+         */
+        private Node next;
+
+        public Node(Object data, Node next) {
+            this.data = data;
+            this.next = next;
+        }
     }
 
     @Override
     public int size() {
-        return size;
+        return 0;
     }
 
     @Override
@@ -34,8 +48,6 @@ public class MyLinkedList implements BaseList{
 
     @Override
     public void add(int index, Object object) {
-
-
 
     }
 
@@ -58,4 +70,5 @@ public class MyLinkedList implements BaseList{
     public Object getNext(Object object) {
         return null;
     }
+
 }
