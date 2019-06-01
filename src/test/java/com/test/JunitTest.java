@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/9/13 15:01
  */
 public class JunitTest {

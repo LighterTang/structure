@@ -4,7 +4,7 @@ package com.good.good.study.structure.list;
  * @Title: MyArrayList
  * @Package: com.good.good.study.structure.list
  * @Description: 实现线性表顺序结构
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/11 0011 21:00
  * @Version: V1.0
  */

@@ -3,7 +3,7 @@ package com.good.good.study.expression;
 /**
  * 运算符
  *
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/9/12 19:43
  */
 public class Operator {

@@ -8,7 +8,7 @@ import java.util.Stack;
  *     pop() -- 删除栈顶的元素。
  *     top() -- 获取栈顶元素。
  *     min() -- 检索栈中的最小元素。
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/09/11 21:44
  */
 public class MinStack {

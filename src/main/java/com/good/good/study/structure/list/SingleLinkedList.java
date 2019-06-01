@@ -4,7 +4,7 @@ package com.good.good.study.structure.list;
  * @Title: SingleLinkedList
  * @Package: com.good.good.study.structure.list
  * @Description: 单向链表
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 0012 21:33
  * @Version: V1.0
  */

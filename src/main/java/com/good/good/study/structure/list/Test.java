@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Title: Test
  * @Package: com.good.good.study.structure.list
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/11 0011 22:03
  * @Version: V1.0
  */

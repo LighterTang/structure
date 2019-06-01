@@ -6,7 +6,7 @@ import java.util.Stack;
 
 /**
  * 计算工具
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/9/13 14:35
  */
 public class CalculatorUtil {

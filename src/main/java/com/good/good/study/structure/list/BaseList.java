@@ -4,7 +4,7 @@ package com.good.good.study.structure.list;
  * @Title: BaseList
  * @Package: com.good.good.study.structure.list
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/11 0011 20:46
  * @Version: V1.0
  */
