@@ -1,17 +1,16 @@
-package com.good.good.study.structure.list;
+package com.good.good.study.list;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * @Title: Test
+ * @Title: MyArrayListTest
  * @Package: com.good.good.study.structure.list
  * @Description: TODO（添加描述）
  * @Author: monkjavaer
  * @Data: 2019/4/11 0011 22:03
  * @Version: V1.0
  */
-public class Test {
+public class MyArrayListTest {
 
     public static void main(String[] args) {
         MyArrayList list = new MyArrayList();

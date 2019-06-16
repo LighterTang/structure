@@ -4,7 +4,7 @@ package com.good.good.study.expression;
  * @author monkjavaer
  * @date 2018/9/13 11:49
  */
-public class Test {
+public class ExpressionTest {
 
 
     public static void main(String[] args) {

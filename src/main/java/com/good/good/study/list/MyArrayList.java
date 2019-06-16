@@ -1,4 +1,4 @@
-package com.good.good.study.structure.list;
+package com.good.good.study.list;
 
 /**
  * @Title: MyArrayList
