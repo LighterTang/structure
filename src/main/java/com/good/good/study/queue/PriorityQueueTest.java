@@ -44,7 +44,7 @@ public class PriorityQueueTest {
         PriorityQueue<Person> priorityQueue = new PriorityQueue<>(new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
-                return o2.getAge()-o1.getAge();
+                return o1.getAge()-o2.getAge();
             }
         });
         Random random = new Random();
@@ -60,5 +60,4 @@ public class PriorityQueueTest {
             logger.info("取出Person：{}",person.getAge());
         }
     }
-
 }
